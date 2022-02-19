@@ -2,14 +2,17 @@
 function tailCutter(input){
     let inputs = input.split(" ")
     let expect = [".", ";", ","];
+
     return inputs.map(item => {
         let txt = item.split("")
         let newText = ""
+
         if(expect.includes(txt[txt.length - 1])){
             newText = txt.filter((t, i) => i != txt.length - 2)
         }else{
             newText = txt.filter((t,i) => i != txt.length - 1)
         }
+        
         return newText.join("")
     }).join(" ")
 }
