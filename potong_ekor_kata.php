@@ -4,6 +4,7 @@ function tailCutter($input){
     $inputs = explode(" ",$input);
     $expect = [".", ";", ","];
     $result = [];
+    
     for($i = 0; $i < count($inputs); $i++){
         $txt = $inputs[$i];
         if(in_array($inputs[$i][strlen($inputs[$i]) - 1], $expect)){
