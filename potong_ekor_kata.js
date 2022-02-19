@@ -20,3 +20,11 @@ console.log(tailCutter("First, solve the problem. Then, write the code."))
 console.log(tailCutter("Experience is the name everyone gives to their mistakes"))
 console.log(tailCutter("Knowledge is power"))
 console.log(tailCutter("Computers are fast; programmers keep it slow."))
+
+/* hasil console jika semua nya bener*/
+// Lore ipsu dolo si ame, consectetu adipiscin eli
+// Th bes erro messag i th on tha neve show u
+// Firs, solv th proble. The, writ th cod.
+// Experienc i th nam everyon give t thei mistake
+// Knowledg i powe
+// Computer ar fas; programmer kee i slo.
