@@ -1,9 +1,9 @@
-// Logic Bener
+// Logika Bener
 function hitungUmurAdikSaatIni(umurSaya) {
     return umurSaya - 3;
 }
 
-// Loigic Salah
+// Logika Salah
 // function hitungUmurAdikSaatIni(umurSaya) {
 //     return umurSaya / 2;
 // }
